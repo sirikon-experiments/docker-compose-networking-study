@@ -1,0 +1,12 @@
+services:
+  one:
+    image: study
+    environment:
+      NAME: alpha-one
+  two:
+    image: study
+    environment:
+      NAME: alpha-two
+networks:
+  default:
+    name: alpha-net

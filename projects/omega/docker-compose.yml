@@ -1,0 +1,9 @@
+services:
+  one:
+    image: study
+    environment:
+      NAME: omega-one
+  two:
+    image: study
+    environment:
+      NAME: omega-one

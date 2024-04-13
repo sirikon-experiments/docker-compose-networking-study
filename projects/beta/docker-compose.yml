@@ -1,0 +1,13 @@
+services:
+  one:
+    image: study
+    environment:
+      NAME: beta-one
+  two:
+    image: study
+    environment:
+      NAME: beta-two
+networks:
+  default:
+    name: alpha-net
+    external: true
