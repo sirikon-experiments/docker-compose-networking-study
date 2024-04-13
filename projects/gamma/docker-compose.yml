@@ -2,11 +2,11 @@ services:
   one:
     image: study
     environment:
-      NAME: omega-one
+      NAME: gamma-one
   two:
     image: study
     environment:
-      NAME: omega-one
+      NAME: gamma-two
     networks:
       default: {}
       alpha-net:
