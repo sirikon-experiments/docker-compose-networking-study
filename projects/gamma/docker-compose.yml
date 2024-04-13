@@ -5,13 +5,14 @@ services:
       NAME: gamma-one
   two:
     image: study
+    hostname: twenty
     environment:
       NAME: gamma-two
     networks:
       default: {}
       alpha-net:
         aliases:
-          - twenty
+          - gamma-twenty
 
 networks:
   alpha-net:
