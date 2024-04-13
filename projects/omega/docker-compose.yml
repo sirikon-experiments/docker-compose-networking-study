@@ -7,3 +7,13 @@ services:
     image: study
     environment:
       NAME: omega-one
+    networks:
+      default: {}
+      alpha-net:
+        aliases:
+          - twenty
+
+networks:
+  alpha-net:
+    name: alpha-net
+    external: true
